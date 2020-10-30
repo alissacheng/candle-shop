@@ -1,0 +1,13 @@
+.add-cart{
+    @include center(column);
+}
+
+.cart-counter {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+
+    button {
+        width: 50px;
+    }
+}

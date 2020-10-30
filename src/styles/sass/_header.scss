@@ -1,0 +1,33 @@
+.header {
+    background-color: rgb(255, 240, 192);
+    min-height: 150px;
+    text-align: center;
+    padding: 25px 0;
+
+    h1 {
+        color: purple;
+        font-family: cursive;
+    }
+    
+    .main-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 45px;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;    
+            list-style: none;
+            flex-shrink: 0;
+            width: 60%;
+            padding-left: 0;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: orange;
+        }
+    }
+}
