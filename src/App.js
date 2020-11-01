@@ -11,7 +11,8 @@ class App extends Component {
       user: null,
       eamil: null,
       emailFirebase: null,
-      cart: []
+      cart: [],
+      reviews: []
     }
   }
 
@@ -38,6 +39,7 @@ class App extends Component {
         />
         <Candle
           setCandleProp={this.addToCart}
+          candleType="champagne-toast"
         />
       </div>
     ); 

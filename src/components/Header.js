@@ -8,13 +8,13 @@ const Header = (props) => {
             <nav className="main-nav">
                 <ul>
                     <li className="nav-item">
-                        <a href="#" className="nav-link">Browse Candles</a>
+                        <a href="https://www.google.ca" className="nav-link">Browse Candles</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link">Your Favourites</a>
+                        <a href="https://www.google.ca" className="nav-link">Your Favourites</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link">Your Orders</a>
+                        <a href="https://www.google.ca" className="nav-link">Your Orders</a>
                     </li>
                 </ul>
                 <button>Cart</button>
